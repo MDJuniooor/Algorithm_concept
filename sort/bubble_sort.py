@@ -7,6 +7,7 @@ def bubble_sort(List):
                 List[i],List[i+1] = List[i+1],List[i]
     print(List)
 
+# time complexity : O(n**2)
 # example
 # bubble_sort([3,2,4,5,1])
 # result : [1,2,3,4,5]
